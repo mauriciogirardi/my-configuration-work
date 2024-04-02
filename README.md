@@ -59,71 +59,55 @@ ssh-add
 
 ```json
 {
-  // "terminal.integrated.shell.linux": "/bin/zsh",
-  // "terminal.integrated.shell.osx": "/bin/zsh",
-
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dracula Refined",
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 16,
+  "chat.editor.fontSize": 16,
+  "editor.lineHeight": 1.8,
+  "editor.rulers": [80, 120],
   "workbench.startupEditor": "newUntitledFile",
-  "editor.fontSize": 15,
+  "editor.renderLineHighlight": "gutter",
+  "editor.fontLigatures": true,
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": false,
+  // "editor.minimap.enabled": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.tabSize": 2,
+  "scm.inputFontSize": 15,
+  "terminal.integrated.fontSize": 15,
+  "debug.console.fontSize": 15,
+  "markdown.preview.fontSize": 16,
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "extensions.ignoreRecommendations": true,
   "typescript.tsserver.log": "off",
-  "screencastMode.onlyKeyboardShortcuts": true,
   "editor.parameterHints.enabled": false,
-  "editor.renderLineHighlight": "gutter",
   "cSpell.language": "en,pt,pt_BR",
-  "editor.lineHeight": 26,
   "typescript.updateImportsOnFileMove.enabled": "never",
   "editor.suggestSelection": "first",
   "explorer.confirmDelete": false,
   "gitlens.codeLens.recentChange.enabled": false,
   "typescript.suggest.autoImports": true,
-  "editor.fontLigatures": true,
-  "workbench.editor.labelFormat": "short",
   "liveshare.featureSet": "insiders",
   "editor.acceptSuggestionOnCommitCharacter": false,
-  "explorer.compactFolders": false,
   "git.enableSmartCommit": true,
   "editor.accessibilitySupport": "off",
   "explorer.confirmDragAndDrop": false,
-  "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-  "editor.semanticHighlighting.enabled": false,
-  "breadcrumbs.enabled": true,
-  "editor.fontFamily": "Fira Code", //"JetBrains Mono"
   "gitlens.codeLens.authors.enabled": false,
-  "editor.tabSize": 2,
   "security.workspace.trust.untrustedFiles": "newWindow",
-  "tabnine.experimentalAutoImports": true,
   "gitlens.codeLens.enabled": false,
-  "workbench.iconTheme": "material-icon-theme",
-  "polacode.transparentBackground": true,
-  "polacode.target": "snippet",
-  "editor.minimap.enabled": false,
   "update.mode": "start",
-  "workbench.colorTheme": "Dracula Soft",
-  "workbench.editor.untitled.hint": "hidden",
-  "liveServer.settings.donotShowInfoMsg": true,
   "window.commandCenter": true,
   "git.openRepositoryInParentFolders": "always",
-  "window.zoomLevel": 1,
-  "maven.dependency.enableConflictDiagnostics": true,
-  "maven.executable.preferMavenWrapper": true,
-  "maven.showInExplorerContextMenu": true,
   "terminal.integrated.env.linux": {},
-  "redhat.telemetry.enabled": true,
-
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
-  },
-  "editor.rulers": [80, 120],
-  "files.associations": {
-    "*.html": "html",
-    ".sequelizerc": "javascript",
-    ".stylelintrc": "json",
-    "*.tsx": "typescriptreact",
-    ".env.*": "dotenv",
-    ".prettierrc": "json"
   },
   "[prisma]": {
     "editor.formatOnSave": true
@@ -151,8 +135,8 @@ ssh-add
     "!scss"
   ],
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.addMissingImports": true
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "explicit"
   },
   "eslint.validate": ["javascript", "javascriptreact", "graphql"],
   "files.exclude": {
@@ -162,12 +146,6 @@ ssh-add
     "**/.svn": true,
     "**/.git": true
     // "node_modules": true
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "material-icon-theme.files.associations": {
     "*.html": "html",
@@ -188,50 +166,6 @@ ssh-add
     "fakes": "mock",
     "schemas": "class"
   },
-  "peacock.favoriteColors": [
-    {
-      "name": "Angular Red",
-      "value": "#dd0531"
-    },
-    {
-      "name": "Azure Blue",
-      "value": "#007fff"
-    },
-    {
-      "name": "JavaScript Yellow",
-      "value": "#f9e64f"
-    },
-    {
-      "name": "Mandalorian Blue",
-      "value": "#1857a4"
-    },
-    {
-      "name": "Node Green",
-      "value": "#215732"
-    },
-    {
-      "name": "React Blue",
-      "value": "#61dafb"
-    },
-    {
-      "name": "Something Different",
-      "value": "#832561"
-    },
-    {
-      "name": "Svelte Orange",
-      "value": "#ff3d00"
-    },
-    {
-      "name": "Vue Green",
-      "value": "#42b883"
-    },
-    {
-      "name": "Nest Purple",
-      "value": "#b61a3d"
-    }
-  ],
-  "totalTypeScript.hideAllTips": true,
-  "totalTypeScript.hideBasicTips": true,
   "cSpell.userWords": [
     "camelcase",
     "dayjs",
@@ -242,7 +176,10 @@ ssh-add
     "roboto",
     "tailwindcss"
   ],
-  "git.confirmSync": false
+  "git.confirmSync": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "console-ninja.featureSet": "Community",
+  "console-ninja.warnOnNoToolsDetected": false,
 }
 
 ```
