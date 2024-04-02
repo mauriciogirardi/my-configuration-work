@@ -1,3 +1,29 @@
+## VS code e
+```bash
+Prisma
+Auto Rename Tag
+Bracket pair Color
+Code Sepell Check
+Color Highlight
+Console Ninja
+Comment tagged templates  ex = /* css */
+Docker
+DotENV
+Dracula
+EditorConfig
+ESLint
+Git Graph
+GitLens
+Live Server
+Live Share
+Material ion theme
+PostCSS
+Prettier
+Tailwind CSS
+Svg Preview
+Rest Client
+
+```
 ## SSH
 
 ```bash
