@@ -1,3 +1,16 @@
+## SSH
+
+```bash
+cd ~/.ssh
+
+ssh-keygen -t rsa -b 4096 -C "email"
+
+eval $(ssh-agent -s)
+
+ssh-add
+    
+```
+
 ## ZSH
 
 ```bash
