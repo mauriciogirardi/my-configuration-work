@@ -14,6 +14,9 @@ ssh-add
 ## ZSH
 
 ```bash
+    # Check 
+    curl --version
+
     # 01 install ZSH
     sudo apt install zsh -y
 
@@ -42,8 +45,13 @@ ssh-add
     code ~/.zshrc
 
         # Change
-        ZSH_THEME="spaceship"
+        ZSH_THEME="norm"
         plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+
+    # Themes
+
+    https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+    
 
 ```
 
