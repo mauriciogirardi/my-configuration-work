@@ -85,8 +85,9 @@ ssh-add
 
 ```json
 {
+{
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Dracula Refined",
+  "workbench.colorTheme": "Dracula Theme",
   "editor.formatOnSave": true,
   "editor.fontFamily": "Fira Code",
   "editor.fontSize": 16,
@@ -141,25 +142,6 @@ ssh-add
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "cSpell.enableFiletypes": [
-    "!asciidoc",
-    "!c",
-    "!cpp",
-    "!csharp",
-    "!go",
-    "!handlebars",
-    "!haskell",
-    "!jade",
-    "!java",
-    "!latex",
-    "!php",
-    "!pug",
-    "!python",
-    "!restructuredtext",
-    "!rust",
-    "!scala",
-    "!scss"
-  ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.addMissingImports": "explicit"
@@ -206,6 +188,17 @@ ssh-add
   "liveServer.settings.donotShowInfoMsg": true,
   "console-ninja.featureSet": "Community",
   "console-ninja.warnOnNoToolsDetected": false,
+  "terminal.integrated.env.windows": {},
+  "biome.suggestInstallingGlobally": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+ "editor.defaultFormatter": "biomejs.biome"
+}
+
 }
 
 ```
